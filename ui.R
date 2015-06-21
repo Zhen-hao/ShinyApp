@@ -29,7 +29,7 @@ tabPanel("Predicting Miles per gallon (MPG) by horsepower and weight",
                                 span(textOutput("population", inline = TRUE), 
                                 style = "color: green; font-size: 20px"),
                                 "shown in the Histogram of MPG values in mtcars"),
-                        tags$hr(),plotOutput("popHist"), 
+                        tags$hr(),plotOutput("hist"), 
                         # additional style
                         style = "padding-left: 20px"
                  )
